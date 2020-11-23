@@ -23,7 +23,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "moveSegue", sender: "TEST")
+        tableView.deselectRow(at: indexPath, animated: true)
+        let emoji = arr_emojis[indexPath.row]
+        performSegue(withIdentifier: "moveSegue", sender: emoji)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let defVC = segue.destination as! DefinitionViewController
+        defVC.emoji = sender as! String
     }
     
     override func viewDidLoad() {
@@ -34,4 +41,3 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate  = self
     }
 }
-

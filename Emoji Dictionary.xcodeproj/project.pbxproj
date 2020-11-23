@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B86A99256A0CD200EDEA9A /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B86A98256A0CD200EDEA9A /* DefinitionViewController.swift */; };
 		16E461AD2554A6F0002B8C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E461AC2554A6F0002B8C13 /* AppDelegate.swift */; };
 		16E461AF2554A6F0002B8C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E461AE2554A6F0002B8C13 /* SceneDelegate.swift */; };
 		16E461B12554A6F0002B8C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E461B02554A6F0002B8C13 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B86A98256A0CD200EDEA9A /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		16E461A92554A6F0002B8C13 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E461AC2554A6F0002B8C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16E461AE2554A6F0002B8C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				16E461AC2554A6F0002B8C13 /* AppDelegate.swift */,
 				16E461AE2554A6F0002B8C13 /* SceneDelegate.swift */,
 				16E461B02554A6F0002B8C13 /* ViewController.swift */,
+				16B86A98256A0CD200EDEA9A /* DefinitionViewController.swift */,
 				16E461B22554A6F0002B8C13 /* Main.storyboard */,
 				16E461B52554A6F2002B8C13 /* Assets.xcassets */,
 				16E461B72554A6F2002B8C13 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E461B12554A6F0002B8C13 /* ViewController.swift in Sources */,
+				16B86A99256A0CD200EDEA9A /* DefinitionViewController.swift in Sources */,
 				16E461AD2554A6F0002B8C13 /* AppDelegate.swift in Sources */,
 				16E461AF2554A6F0002B8C13 /* SceneDelegate.swift in Sources */,
 			);
